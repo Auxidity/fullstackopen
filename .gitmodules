@@ -1,0 +1,3 @@
+[submodule "part03/fullstackopen_render"]
+	path = part03/fullstackopen_render
+	url = git@github.com:Auxidity/fullstackopen_render.git
