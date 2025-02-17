@@ -1,0 +1,8 @@
+
+curl -X POST http://localhost:6969/api/users \
+  -H "Content-Type: application/json" \
+  -d '{
+    "username": "suupausa2",
+    "name": "John Doe",
+    "password": "nopw"
+  }'
