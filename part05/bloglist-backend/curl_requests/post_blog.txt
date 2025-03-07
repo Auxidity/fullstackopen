@@ -1,0 +1,9 @@
+curl -X POST http://localhost:6969/api/blogs \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjY3YjVmMTRlMjEyNDhjYjExMDQwNmMzMSIsImlhdCI6MTczOTk3NzA5MiwiZXhwIjoxNzM5OTgwNjkyfQ.UZxwxdExDRbzrCZbs0B79eHEljNtUUdFl-RqagT_sQM" \
+  -d '{
+    "title": "Sample Alt Blog Title",
+    "author": "Sample Author",
+    "url": "http://sampleurl.com",
+    "userId": "67b371fc1264044504ae0128"
+  }'
