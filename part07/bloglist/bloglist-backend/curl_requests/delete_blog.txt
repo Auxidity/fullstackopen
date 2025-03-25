@@ -1,0 +1,2 @@
+curl -X DELETE http://localhost:6969/api/blogs/67b386ba3e03c74e336971d1 \
+    -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InN1dXBhdXNhMiIsImlkIjoiNjdiMzcxZmMxMjY0MDQ0NTA0YWUwMTI4IiwiaWF0IjoxNzM5ODE4NTExLCJleHAiOjE3Mzk4MjIxMTF9.en7uuqF9XEFN0A-225aCHPCiZxutYnQGR5iuykTu8s4"
