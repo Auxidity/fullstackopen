@@ -19,7 +19,7 @@ const resolvers = {
             return await Author.countDocuments();
         },
         allAuthors: async () => {
-            return Author.find({});
+            return Author.find({}).populate('bookCount');
         },
         allBooks: async (root, args) => {
             const filter = {};
@@ -33,12 +33,6 @@ const resolvers = {
             }
 
             return await Book.find(filter).populate('author', 'name born bookCount')
-        },
-    },
-    Author: {
-        bookCount: async (root) => {
-            const booksByAuthor = await Book.countDocuments({ author: root.id });
-            return booksByAuthor;
         },
     },
     Mutation: {
