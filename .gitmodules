@@ -1,3 +1,6 @@
 [submodule "part03/fullstackopen_render"]
 	path = part03/fullstackopen_render
 	url = git@github.com:Auxidity/fullstackopen_render.git
+[submodule "part10/fullstackopen_react_native"]
+	path = part10/fullstackopen_react_native
+	url = git@github.com:Auxidity/fullstackopen_react_native.git
