@@ -4,3 +4,6 @@
 [submodule "part10/fullstackopen_react_native"]
 	path = part10/fullstackopen_react_native
 	url = git@github.com:Auxidity/fullstackopen_react_native.git
+[submodule "part11/full-stack-open-pokedex"]
+	path = part11/full-stack-open-pokedex
+	url = https://github.com/Auxidity/full-stack-open-pokedex
