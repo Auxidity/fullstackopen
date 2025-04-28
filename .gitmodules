@@ -7,3 +7,6 @@
 [submodule "part11/full-stack-open-pokedex"]
 	path = part11/full-stack-open-pokedex
 	url = https://github.com/Auxidity/full-stack-open-pokedex
+[submodule "part11/fullstack_open_cicd_bloglist"]
+	path = part11/fullstack_open_cicd_bloglist
+	url = https://github.com/Auxidity/fullstack_open_cicd_bloglist
