@@ -1,0 +1,170 @@
+Script started on 2025-04-30 17:24:01+03:00 [TERM="tmux-256color" TTY="/dev/pts/3" COLUMNS="382" LINES="49"]
+[?2004h[01;32mauxidity@auxidity-VirtualBox[00m:[01;34m~/Desktop/FullStack/fullstackcourse/part12/part12-containers-applications/script-answers[00m$ docker start -i exciting_dirac 
+[?2004l[?2004h]0;root@1f220b726e52: /root@1f220b726e52:/# nvim /usr/src/app/index.js 
+[?2004l[?1049h[22;0;0t[?1h=[H[2J[?2004h[?2026$p[?2027$p[?2031$p[?2048$p[0m[4:3mP$qm\[?u[c[?25h]11;?P+q5463;524742;73657472676266;73657472676262\[0m[48;2;1;2;3mP$qm\[?25l[>4;2m(B[m[H                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                              [?1004h[?25hP+q4D73\[?25l(B[m[38;2;200;211;245m[48;2;34;36;54m[49;1H[J(B[m[38;2;255;199;119m[48;2;34;36;54m/usr/local/share/nvim/runtime/lua/vim/lsp/_transport.lua:68: Spawning language server with cmd: `{ "typescript-language-server", "--stdio" }` failed. The language server is either not installed, missing from PATH, or not executable.[45;49r[45;1H(B[m[38;2;200;211;245m[48;2;34;36;54m[4M[r[44;1H                                                                                                                                                                                                                                                                                                                                                                                              
+
+(B[m[38;2;197;59;83m[48;2;34;36;54mError detected while processing BufEnter Autocommands for "*.js":(B[m[38;2;200;211;245m[48;2;34;36;54m                                                                                                                                                                                                                                                                                                                             
+(B[m[38;2;197;59;83m[48;2;34;36;54mError running eslint: ENOENT: no such file or directory(B[m[38;2;200;211;245m[48;2;34;36;54m                                                                                                                                                                                                                                                                                                                                       
+[LSP] Format request failed, no matching language servers.                                                                                                                                                                                                                                                                                                                                    
+(B[m[38;2;130;170;255m[48;2;34;36;54mPress ENTER or type command to continue(B[m[38;2;200;211;245m[48;2;34;36;54m                                                                                                                                                                                                                                                                                                                                                       [2 q[2 q[H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+(B[m[38;2;255;199;119m[48;2;34;36;54m/usr/local/share/nvim/runtime/lua/vim/lsp/_transport.lua:68: Spawning language server with cmd: `{ "typescript-language-server", "--stdio" }` failed. The language server is either not installed, missing from PATH, or not executable.(B[m[38;2;200;211;245m[48;2;34;36;54m[K
+(B[m[38;2;197;59;83m[48;2;34;36;54mError detected while processing BufEnter Autocommands for "*.js":(B[m[38;2;200;211;245m[48;2;34;36;54m[K
+(B[m[38;2;197;59;83m[48;2;34;36;54mError running eslint: ENOENT: no such file or directory(B[m[38;2;200;211;245m[48;2;34;36;54m[K
+[LSP] Format request failed, no matching language servers.[K
+(B[m[38;2;130;170;255m[48;2;34;36;54mPress ENTER or type command to continue(B[m[38;2;200;211;245m[48;2;34;36;54m[K[?25h[?25l[H(B[m[38;2;59;66;97m[48;2;34;36;54m  1 (B[m[38;2;255;117;127m[48;2;34;36;54mconsole(B[m[38;2;137;221;255m[48;2;34;36;54m.(B[m[38;2;130;170;255m[48;2;34;36;54mlog(B[m[38;2;130;139;184m[48;2;34;36;54m((B[m[38;2;195;232;141m[48;2;34;36;54m"Hello World"(B[m[38;2;130;139;184m[48;2;34;36;54m)(B[m[38;2;200;211;245m[48;2;34;36;54m[K
+(B[m[38;2;34;36;54m[48;2;34;36;54m~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+(B[m[38;2;200;211;245m[48;2;34;36;54m                                                                                                                                                                                                                                                                                                                                                                                              [22;0t]0;/usr/src/app/index.js(B[m[38;2;130;139;184m[48;2;34;36;54m
+[J[?1002h[?1006h[1;5H[?25h[?25l[48B[mason-lspconfig.nvim] installing ts_ls[49;1H[39X[mason-lspconfig.nvim] installing eslint[A(B[m[38;2;27;29;43m[48;2;130;170;255m NORMAL (B[m[38;2;130;170;255m[48;2;30;32;48m[48;10H(B[m[38;2;130;139;184m[48;2;30;32;48m index.js                                                                                                                                                                                                                                                                                                                                    utf-8 [48;350H [48;352H [48;354H(B[m[38;2;203;203;65m[48;2;30;32;48m [48;356H (B[m[38;2;130;139;184m[48;2;30;32;48mjavascript (B[m[38;2;59;66;97m[48;2;30;32;48m[48;369H(B[m[38;2;130;170;255m[48;2;59;66;97m Top [48;375H(B[m[38;2;27;29;43m[48;2;130;170;255m   1:1  [1;5H[?25h[?25l(B[m[38;2;130;139;184m[48;2;34;36;54m[48B[40X(B[m[38;2;197;59;83m[48;2;34;36;54m[mason-lspconfig.nvim] failed to install ts_ls. Installation logs are available in :Mason and :MasonLog[47;49r[47;1H(B[m[38;2;200;211;245m[48;2;34;36;54m[2M[r[46;1H(B[m[38;2;130;139;184m[48;2;30;32;48m                                                                                                                                                                                                                                                                                                                                                                                              
+
+(B[m[38;2;197;59;83m[48;2;34;36;54m[mason-lspconfig.nvim] failed to install eslint. Installation logs are available in :Mason and :MasonLog(B[m[38;2;130;139;184m[48;2;34;36;54m                                                                                                                                                                                                                                                                                      
+(B[m[38;2;130;170;255m[48;2;34;36;54mPress ENTER or type command to continue(B[m[38;2;130;139;184m[48;2;34;36;54m                                                                                                                                                                                                                                                                                                                                                       [?1002l[?1006l[49;40H[?25h[?25l[3A(B[m[38;2;34;36;54m[48;2;34;36;54m~                                                                                                                                                                                                                                                                                                                                                                                             
+~                                                                                                                                                                                                                                                                                                                                                                                             
+(B[m[38;2;27;29;43m[48;2;130;170;255m NORMAL (B[m[38;2;130;170;255m[48;2;30;32;48m[48;10H(B[m[38;2;130;139;184m[48;2;30;32;48m index.js                                                                                                                                                                                                                                                                                                                                    utf-8 [48;350H [48;352H [48;354H(B[m[38;2;203;203;65m[48;2;30;32;48m [48;356H (B[m[38;2;130;139;184m[48;2;30;32;48mjavascript (B[m[38;2;59;66;97m[48;2;30;32;48m[48;369H(B[m[38;2;130;170;255m[48;2;59;66;97m Top [48;375H(B[m[38;2;27;29;43m[48;2;130;170;255m   1:1  (B[m[38;2;130;139;184m[48;2;34;36;54m
+[J[?1002h[?1006h[1;5H[?25h[?25l[49;372H:[1;5H[?25h[?25l[49;372H [49;1H:[2 q[?1002l[?1006l[?25h[?25l[A(B[m[38;2;27;29;43m[48;2;255;199;119m COMMAND (B[m[38;2;255;199;119m[48;2;30;32;48m[48;11H(B[m[38;2;130;139;184m[48;2;30;32;48m index.js                                                                                                                                                                                                                                                                                                                                   utf-8 [48;350H [48;352H [48;354H(B[m[38;2;203;203;65m[48;2;30;32;48m [48;356H (B[m[38;2;130;139;184m[48;2;30;32;48mjavascript (B[m[38;2;59;66;97m[48;2;30;32;48m[48;369H(B[m[38;2;255;199;119m[48;2;59;66;97m Top [48;375H(B[m[38;2;27;29;43m[48;2;255;199;119m   1:1  [49;2H[?25h[?25l(B[m[38;2;130;139;184m[48;2;34;36;54mw[?25h[?25lq[?25h[?25l[49;1H[?25h[?25l"usr/src/app/index.js"[2 q[?1002h[?1006h[C[?25h[?25l1L, 27B written[46;49r[46;1H(B[m[38;2;200;211;245m[48;2;34;36;54m[3M[r[45;1H(B[m[38;2;130;139;184m[48;2;30;32;48m                                                                                                                                                                                                                                                                                                                                                                                              
+
+(B[m[38;2;197;59;83m[48;2;34;36;54mError detected while processing BufWritePost Autocommands for "*.js":(B[m[38;2;130;139;184m[48;2;34;36;54m                                                                                                                                                                                                                                                                                                                         
+(B[m[38;2;197;59;83m[48;2;34;36;54mError running eslint: ENOENT: no such file or directory(B[m[38;2;130;139;184m[48;2;34;36;54m                                                                                                                                                                                                                                                                                                                                       
+[LSP] Format request failed, no matching language servers.                                                                                                                                                                                                                                                                                                                                    [49;59H[?25h[?25l[1;5H[?25h[?25l[44;49r[44;1H(B[m[38;2;200;211;245m[48;2;34;36;54m[M[r[49;1H(B[m[38;2;255;199;119m[48;2;34;36;54mFormatters unavailable for javascript file(B[m[38;2;130;139;184m[48;2;34;36;54m                                                                                                                                                                                                                                                                                                                                                    [49;43H[?25h[?25l[?2031l[2 q[?1002l[?1006l(B[m[?25h[?1l>[>4;0m[?2048l[23;0t[?2004l[?1004l[c[?25h[?25l[49;1H[?1049l[23;0;0t[?25h[?2004h]0;root@1f220b726e52: /root@1f220b726e52:/# [Kcat /usr/src/app/index.js 
+[?2004lconsole.log("Hello World")
+[?2004h]0;root@1f220b726e52: /root@1f220b726e52:/# [Kexit
+[?2004lexit
+[?2004h[01;32mauxidity@auxidity-VirtualBox[00m:[01;34m~/Desktop/FullStack/fullstackcourse/part12/part12-containers-applications/script-answers[00m$ exit
+[?2004lexit
+
+Script done on 2025-04-30 17:24:46+03:00 [COMMAND_EXIT_CODE="0"]

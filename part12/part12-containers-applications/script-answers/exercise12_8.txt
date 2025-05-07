@@ -1,0 +1,79 @@
+Script started on 2025-05-06 17:03:10+03:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="80" LINES="24"]
+[?2004h]0;auxidity@auxidity-VirtualBox: ~/Desktop/FullStack/fullstackcourse/part12/part12-containers-applications/script-answers[01;32mauxidity@auxidity-VirtualBox[00m:[01;34m~/Desktop/FullStack/fullstackcourse/part12/part12-containers-applications/script-answers[00m$ exitdocker exec -it todo-backend-mongo-1 bash [A
+[?2004lroot@e267d68a4fc4:/# mongosh -u root -p root
+Current Mongosh Log ID:	681a16b640342c453e69036f
+Connecting to:		[1m[32mmongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000[0m
+Using MongoDB:		4.4.29
+[1m[33mUsing Mongosh Beta[0m:	0.12.1
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+[1m[33m------[0m
+   [1m[33mThe server generated these startup warnings when booting:[0m
+   2025-05-06T13:45:25.691+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+[1m[33m------[0m
+
+[1G[0J [1G[1G[0J> [3G[K[2G[3G[1G[0J> [3G[Ks[3G[4G[1G[0J> [3G[Ksh[4G[5G[1G[0J> [3G[Ksho[5G[6G[1G[0J> [3G[Kshow[6G[7G[1G[0J> [3G[Kshow [7G[8G[1G[0J> [3G[Kshow d[8G[9G[1G[0J> [3G[Kshow db[9G[10G[1G[0J> [3G[Kshow dbs[10G[11G
+[1madmin[0m          102 kB
+[1mconfig[0m        94.2 kB
+[1mlocal[0m         73.7 kB
+[1mthe_database[0m  73.7 kB
+[1G[0J> [3G[K[2G[3G[1G[0J> [3G[Ku[3G[4G[1G[0J> [3G[Kus[4G[5G[1G[0J> [3G[Kuse[5G[6G[1G[0J> [3G[Kuse [6G[7G[1G[0J> [3G[Kuse t[7G[8G[1G[0J> [3G[Kuse th[8G[9G[1G[0J> [3G[Kuse the[9G[10G[1G[0J> [3G[Kuse the_database[18G[19G
+switched to db the_database
+[1G[0J> [3G[K[2G[3G[1G[0J> [3G[Ks[3G[4G[1G[0J> [3G[Ksh[4G[5G[1G[0J> [3G[Ksho[5G[6G[1G[0J> [3G[Kshow[6G[7G[1G[0J> [3G[Kshow [7G[8G[1G[0J> [3G[Kshow c[8G[9G[1G[0J> [3G[Kshow co[9G[10G[1G[0J> [3G[Kshow col[10G[11G[1G[0J> [3G[Kshow collections[18G[19G
+[1mtodos[0m
+[1G[0J> [3G[K[2G[3G[1G[0J> [3G[Kd[3G[4G[1G[0J> [3G[Kdb[4G[5G[1G[0J> [3G[Kdb.[5G[6G[1G[0J> [3G[Kdb.t[6G[7G[1G[0J> [3G[Kdb.to[7G[8G[1G[0J> [3G[Kdb.tod[8G[9G[1G[0J> [3G[Kdb.todo[9G[10G[1G[0J> [3G[Kdb.todos[10G[11G[1G[0J> [3G[Kdb.todos.[11G[12G[1G[0J> [3G[Kdb.todos.f[12G[13G[1G[0J> [3G[Kdb.todos.fi[13G[14G[1G[0J> [3G[Kdb.todos.fin[14G[15G[1G[0J> [3G[Kdb.todos.find[15G[16G[1G[0J> [3G[Kdb.todos.find([16G[17G[1G[0J> [3G[Kdb.todos.find({[17G[18G[1G[0J> [3G[Kdb.todos.find({}[18G[19G[1G[0J> [3G[Kdb.todos.find({})[19G[20G
+[
+  {
+    _id: ObjectId("681a1028dd8564ebce5de361"),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId("681a1028dd8564ebce5de362"),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId("681a136168ff3f45af8e763b"),
+    text: [32m'test'[39m,
+    done: [33mfalse[39m,
+    __v: [33m0[39m
+  }
+]
+[1G[0J> [3G[K[2G[3G[1G[0J> [3G[Kd[3G[4G[1G[0J> [3G[Kdb[4G[5G[1G[0J> [3G[Kdb.[5G[6G[1G[0J> [3G[Kdb.t[6G[7G[1G[0J> [3G[Kdb.to[7G[8G[1G[0J> [3G[Kdb.tod[8G[9G[1G[0J> [3G[Kdb.todo[9G[10G[1G[0J> [3G[Kdb.todos[10G[11G[1G[0J> [3G[Kdb.todos.[11G[12G[1G[0J> [3G[Kdb.todos.i[12G[13G[1G[0J> [3G[Kdb.todos.in[13G[14G[1G[0J> [3G[Kdb.todos.ins[14G[15G[1G[0J> [3G[Kdb.todos.inse[15G[16G[1G[0J> [3G[Kdb.todos.inser[16G[17G[1G[0J> [3G[Kdb.todos.insert[17G[18G[1G[0J> [3G[Kdb.todos.insertO[18G[19G[1G[0J> [3G[Kdb.todos.insertOn[19G[20G[1G[0J> [3G[Kdb.todos.insertOne[20G[21G[1G[0J> [3G[Kdb.todos.insertOne([21G[22G[1G[0J> [3G[Kdb.todos.insertOne({[22G[23G[1G[0J> [3G[Kdb.todos.insertOne({ [23G[24G[1G[0J> [3G[Kdb.todos.insertOne({ t[24G[25G[1G[0J> [3G[Kdb.todos.insertOne({ te[25G[26G[1G[0J> [3G[Kdb.todos.insertOne({ tex[26G[27G[1G[0J> [3G[Kdb.todos.insertOne({ text[27G[28G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m:[28G[29G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [29G[30G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"[39m[30G[31G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"I[39m[31G[32G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"In[39m[32G[33G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Inc[39m[33G[34G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Incr[39m[34G[35G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Incre[39m[35G[36G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increa[39m[36G[37G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increas[39m[37G[38G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase[39m[38G[39G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase [39m[39G[40G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase t[39m[40G[41G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase th[39m[41G[42G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the[39m[42G[43G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the [39m[43G[44G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the n[39m[44G[45G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the nu[39m[45G[46G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the num[39m[46G[47G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the numb[39m[47G[48G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the numbe[39m[48G[49G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number[39m[49G[50G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number [39m[50G[51G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number o[39m[51G[52G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of[39m[52G[53G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of [39m[53G[54G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of t[39m[54G[55G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of to[39m[55G[56G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of too[39m[56G[57G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tool[39m[57G[58G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools[39m[58G[59G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools [39m[59G[60G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools i[39m[60G[61G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in[39m[61G[62G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in [39m[62G[63G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in m[39m[63G[64G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my[39m[64G[65G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my [39m[65G[66G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my t[39m[66G[67G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my to[39m[67G[68G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my too[39m[68G[69G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool[39m[69G[70G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool [39m[70G[71G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool b[39m[71G[72G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool be[39m[72G[73G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool bel[39m[73G[74G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt[39m[74G[75G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m[75G[76G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m,[76G[77G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [77G[78G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, d[78G[79G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [32mdo[39m[79G[80G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, don[0G [1G[1A[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, done[1G[2G[1A[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m:[2G[3G[1A[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [3G[4G[1A[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: f[4G[5G[1A[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: fa[5G[6G[1A[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: fal[6G[7G[1A[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: fals[7G[8G[1A[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [36mfalse[39m[8G[9G[1A[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [36mfalse[39m [9G[10G[1A[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [36mfalse[39m }[10G[11G[1A[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [36mfalse[39m })[11G[12G
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId("681a17ee4788b4dc51033535")
+}
+[1G[0J> [3G[K[2G[3G[1G[0J> [3G[Kdb.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [36mfalse[39m })[11G[12G[1A[1G[0J> [3G[Kdb.todos.find({})[19G[20G
+[
+  {
+    _id: ObjectId("681a1028dd8564ebce5de361"),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId("681a1028dd8564ebce5de362"),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId("681a136168ff3f45af8e763b"),
+    text: [32m'test'[39m,
+    done: [33mfalse[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId("681a17ee4788b4dc51033535"),
+    text: [32m'Increase the number of tools in my tool belt'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0J> [3G[K[2G[3G[1G[0J> [3G[Ke[3G[4G[1G[0J> [3G[Kex[4G[5G[1G[0J> [3G[Kexi[5G[6G[1G[0J> [3G[Kexit[6G[7G
+root@e267d68a4fc4:/# exit
+exit
+[?2004h]0;auxidity@auxidity-VirtualBox: ~/Desktop/FullStack/fullstackcourse/part12/part12-containers-applications/script-answers[01;32mauxidity@auxidity-VirtualBox[00m:[01;34m~/Desktop/FullStack/fullstackcourse/part12/part12-containers-applications/script-answers[00m$ exit
+[?2004lexit
+
+Script done on 2025-05-06 17:09:45+03:00 [COMMAND_EXIT_CODE="0"]
